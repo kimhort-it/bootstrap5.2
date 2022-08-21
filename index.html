@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Front Page</title>
+</head>
+
+<body>
+    <!-- navigation bar-->
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <img class="img-fluid" src="img/logo-dark.png" width="150px">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">ស្តេហ្គេតសេនធឺ</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">ទំព័រដើម</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ទំនាក់ទំនង</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                ព័ត៌មាន
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="#learn">វគ្គសិក្សាជំនាញ</a></li>
+                                <li><a class="dropdown-item" href="#Question">សំណួរ & ចម្លើយ</a></li>
+                                <li><a class="dropdown-item" href="#">គ្រូបង្ហាត់</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="" aria-label="Search">
+                        <button class="btn btn-success" type="submit">ស្វែងរក</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Showcase-->
+    <section class="bg-dark text-light p-5 p-lg-0 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-item-center justify-content-between">
+                <div class="Showcase">
+                    <h1>ដើម្បីក្លាយខ្លួន<span class="text-warning">ទៅជាអ្នកអភិវឌ្ឍគេហទំព័រ</span></h1>
+                    <p class="lead my-4">ភាសាខ្មែរមានឥទ្ធិពលទៅលើភាសាថៃនិងភាសាឡាវ ​ភាសាពីរនេះបានខ្ចីពាក្យជាច្រើន
+                        ពីភាសាខ្មែរដែលនាំឲ្យពួកអឺរ៉ុបស្មានថាវានៅក្នុងអំបូរភាសាដូចគ្នា។ </p>
+                    <button class="btn btn-primary btn-lg">ចុះឈ្មោះឥឡូវនេះ</button>
+                </div>
+                <img class="img-fluid w-50 d-none d-sm-block" src="img/showcase.svg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- Newsletter -->
+    <section class="bg-primary text-light p-5">
+        <div class="container">
+            <div class="d-md-flex justify-content-between align-item-center">
+                <h3 class="md-3 mb-md-0">ទទួលដំណឹងពេលមានវគ្គថ្មីៗ</h3>
+                <div class="input-group news-input">
+                    <input type="text" class="form-control" placeholder="សូមបញ្ចូលអ៊ីមែល"
+                        aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn btn-dark" type="button" id="button-addon2">បញ្ចូន</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Boxes -->
+    <section class="p-3">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="h1 mb-3 p-2">
+                            <i class="bi bi-file-earmark-font"></i>
+                        </div>
+                        <h3 class="card-tile mb-3">
+                            រដ្ឋបាលកុំព្យូទ័រ
+                        </h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, eligendi!
+                        </p>
+                        <a class="btn btn-primary" href="#" role="button">អានលំអិត</a>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-success text-light">
+                        <div class="h1 mb-3 p-2">
+                            <i class="bi bi-exclude"></i>
+                        </div>
+                        <h3 class="card-tile mb-3">
+                            ក្រាហ្វិចឌីសាញ
+                        </h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, eligendi!
+                        </p>
+                        <a class="btn btn-primary" href="#" role="button">អានលំអិត</a>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="h1 mb-3 p-2">
+                            <i class="bi bi-cpu"></i>
+                        </div>
+                        <h3 class="card-tile mb-3">
+                            បច្ចេកទេស
+                        </h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, eligendi!
+                        </p>
+                        <a class="btn btn-primary" href="#" role="button">អានលំអិត</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Learn Section -->
+        <section id="learn" class="p-5">
+            <div class="container">
+                <div class="row align-items-enter justify-content-between">
+                    <div class="col-md">
+                        <img class="img-fluid" src="img/fundamentals.svg" alt="">
+                    </div>
+                    <div class="col-md p-5">
+                        <h2>ទទួលបានវិញ្ញាបត្រក្រោយពេលបញ្ចប់ការសិក្សា</h2>
+                        <p class="lead">ដើម្បីទទួល សញ្ញាបត្រថ្នាក់ បរិញ្ញាបត្របាន ជាបឋមនិស្សិតត្រូវបញ្ចប់
+                            ការសិក្សាថ្នាក់ឆ្នាំសិក្សាមូលដ្ឋាន ដែលមាន រយៈពេលមួយឆ្នាំ នៃការសិក្សា។ ក្រោយពីបញ្ចប់
+                            ការសិក្សាថ្នាក់ឆ្នាំសិក្សាដោយជោគជ័យ និស្សិតនឹងទទួលបាន វិញ្ញាបនបត្រមួយ ដែលបញ្ជាក់ថាបានប្រលង
+                            បញ្ចប់និងជាប់ ជាស្ថាពរលើគ្រប់មុខវិជ្ជា ដែលមានចែង នៅក្នុង
+                            កម្មវិធីសិក្សាថ្នាក់ឆ្នាំសិក្សាមូលដ្ឋាន នៃគ្រឹះស្ថានឧត្តម សិក្សាខ្លួនបានសិក្សា ។
+                        </p>                        
+                        <p>
+                            ការជ្រើសរើសនិសិ្សតចូលរៀនថ្នាក់ឆ្នាំសិក្សាមូលដ្ឋាន : ត្រូវមានដំណើរការ ជ្រើសរើសនិស្សិត
+                        ឳ្យចូលរៀនថ្នាក់ឆ្នាំ សិក្សាមូលដ្ឋានប្រកបដោយ តម្លាភាព និងស្របតាមគោលការណ៍ដែលបានកំណត់ដោយ
+                        ក្រសួងអប់រំយុវជន និងកីឡា។
+                        </p>
+                        <a href="#" class="btn btn-light mt-3">
+                            <i class="bi bi-chevron-right">អានលំអិត</i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Learn Section -->
+        <section id="learn" class="p-5 bg-dark">
+            <div class="container">
+                <div class="row align-items-enter justify-content-between text-light">                    
+                    <div class="col-md p-5">
+                        <h2>ទទួលបានវិញ្ញាបត្រក្រោយពេលបញ្ចប់ការសិក្សា</h2>
+                        <p class="lead">ដើម្បីទទួល សញ្ញាបត្រថ្នាក់ បរិញ្ញាបត្របាន ជាបឋមនិស្សិតត្រូវបញ្ចប់
+                            ការសិក្សាថ្នាក់ឆ្នាំសិក្សាមូលដ្ឋាន ដែលមាន រយៈពេលមួយឆ្នាំ នៃការសិក្សា។ ក្រោយពីបញ្ចប់
+                            ការសិក្សាថ្នាក់ឆ្នាំសិក្សាដោយជោគជ័យ និស្សិតនឹងទទួលបាន វិញ្ញាបនបត្រមួយ ដែលបញ្ជាក់ថាបានប្រលង
+                            បញ្ចប់និងជាប់ ជាស្ថាពរលើគ្រប់មុខវិជ្ជា ដែលមានចែង នៅក្នុង
+                            កម្មវិធីសិក្សាថ្នាក់ឆ្នាំសិក្សាមូលដ្ឋាន នៃគ្រឹះស្ថានឧត្តម សិក្សាខ្លួនបានសិក្សា ។
+                        </p>                        
+                        <p>
+                            ការជ្រើសរើសនិសិ្សតចូលរៀនថ្នាក់ឆ្នាំសិក្សាមូលដ្ឋាន : ត្រូវមានដំណើរការ ជ្រើសរើសនិស្សិត
+                        ឳ្យចូលរៀនថ្នាក់ឆ្នាំ សិក្សាមូលដ្ឋានប្រកបដោយ តម្លាភាព និងស្របតាមគោលការណ៍ដែលបានកំណត់ដោយ
+                        ក្រសួងអប់រំយុវជន និងកីឡា។
+                        </p>
+                        <a href="#" class="btn btn-light mt-3">
+                            <i class="bi bi-chevron-right">អានលំអិត</i>
+                        </a>
+                    </div>
+                    <div class="col-md">
+                        <img class="img-fluid" src="img/react.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Question -->
+        <section id="Question" class="p-5">
+            <div class="container">
+                <h2 class="text-center mb-4">សំណួរ & ចម្លើយ</h2>
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                          ១. តើមជ្ឈមណ្ឌលតម្រូវឯកសារអ្វីខ្លះ?
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body">
+                          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                          ២.​ អត់ចេះភាសាអង់គ្លេសតើអាចសិក្សាបានដែរឬទេ?
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                        <div class="accordion-body">
+                          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                          ៣. តើរយៈពេលសិក្សាប៉ុន្មានខែ?
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                        <div class="accordion-body">
+                          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+        <section id="instructors" class="p-5 bg-primary">
+            <div class="container">
+                <h2 class="text-center text-light">
+                    គ្រូបណ្ដុះបណ្ដាល
+                </h2>
+                <p class="lead text-center text-white mb-5">
+                    Lorem ipsum dolor sit, molestias obcaecati consequuntur aliquid sint possimus fuga sit dolore.
+                </p>
+                <div class="row g-4">
+                    <div class="com-md-6 col-lg-3">
+                        <div class="card bg-light">
+                            <div class="card-body text-center">
+                                <img src="https://randomuser.me/api/portraits/men/11.jpg" class="rounded-circle md-3"alt="">
+                                <div class="card-title mb-3">ជួន សំណាង</div>
+                                <div class="p card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus ipsa magnam, molestiae sit id labore.</div>
+                                <a href="#"><i class="bi bi-telegram text-dark mx-1"></i></a>
+                                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                                <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                                <a href="#"><i class="bi bi-youtube text-dark mx-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="com-md-6 col-lg-3">
+                        <div class="card bg-light">
+                            <div class="card-body text-center">
+                                <img src="https://randomuser.me/api/portraits/men/18.jpg" class="rounded-circle md-3"alt="">
+                                <div class="card-title mb-3">គង់ ចំរើន</div>
+                                <div class="p card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus ipsa magnam, molestiae sit id labore.</div>
+                                <a href="#"><i class="bi bi-telegram text-dark mx-1"></i></a>
+                                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                                <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                                <a href="#"><i class="bi bi-youtube text-dark mx-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="com-md-6 col-lg-3">
+                        <div class="card bg-light">
+                            <div class="card-body text-center">
+                                <img src="https://randomuser.me/api/portraits/women/11.jpg" class="rounded-circle md-3"alt="">
+                                <div class="card-title mb-3">កែវ ពិសី</div>
+                                <div class="p card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus ipsa magnam, molestiae sit id labore.</div>
+                                <a href="#"><i class="bi bi-telegram text-dark mx-1"></i></a>
+                                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                                <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                                <a href="#"><i class="bi bi-youtube text-dark mx-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="com-md-6 col-lg-3">
+                        <div class="card bg-light">
+                            <div class="card-body text-center">
+                                <img src="https://randomuser.me/api/portraits/men/51.jpg" class="rounded-circle md-3"alt="">
+                                <div class="card-title mb-3">ទេព កុសល</div>
+                                <div class="p card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus ipsa magnam, molestiae sit id labore.</div>
+                                <a href="#"><i class="bi bi-telegram text-dark mx-1"></i></a>
+                                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                                <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                                <a href="#"><i class="bi bi-youtube text-dark mx-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <!-- Contact -->
+        <section class="p-5">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-md">
+                        <h2 class="text-center mb-4">
+                            ទំនាក់ទំនង
+                        </h2>
+                        <ul class="list-group list-group-flush lead">
+                            <li class="list-group-item">
+                                <span class="fl-bold">សាខាកណ្ដាល</span> ផ្លូវ ៨១០ ក្រុងព្រះសីហនុ
+                            </li>
+                            <li class="list-group-item">
+                                <span class="fl-bold">លេខទូរស័ព្ទ</span> ០១៥ ៥១១ ២២២
+                            </li>
+                            <li class="list-group-item">
+                                <span class="fl-bold">អ៊ីមែល</span> info@stegate.com
+                            </li>
+                            <li class="list-group-item">
+                                <span class="fl-bold">វេបសាយថ៍</span> www.stegate.com
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    <div class="col-md">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1960.770281767689!2d103.5302037531233!3d10.61504854808733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3107e1f82a18d5dd%3A0xfa3cebe17ea38e1d!2z57qi54Gv56y86aWt5bqX!5e0!3m2!1sen!2skh!4v1661012648659!5m2!1sen!2skh" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer class="p-5 bg-dark text-white text-center position-relative">
+            <div class="container">
+                <p class="lead"> រក្សាសិទ្ធដោយមជ្ឈមណ្ឌលយើងខ្ញុំ​ &copy; ២០២២</p>
+                <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                    <i class="bi bi-arrow-up-circle h1"></i>
+                </a>
+                
+            </div>
+        </footer>
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+            crossorigin="anonymous"></script>
+
+</body>
+
+</html>
